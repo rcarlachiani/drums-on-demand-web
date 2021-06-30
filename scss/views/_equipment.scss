@@ -1,0 +1,48 @@
+/* Equipment */ 
+
+.equipmentContainer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.equipmentCard {
+    background: $back-gradient;
+    background: $gradient;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.equipmentTittles {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.equipmentItems {
+    list-style: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .equipmentContainer {
+        grid-template-columns: 300px 300px;
+        align-items: auto;
+        justify-content: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .equipmentContainer {
+        grid-template-columns: 300px;
+        align-items: auto;
+        justify-content: auto;
+    }
+  }

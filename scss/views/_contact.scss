@@ -1,0 +1,26 @@
+/* Formulario contacto */
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.formItem {
+    color: whitesmoke;
+    background: $back-gradient;
+    background: $gradient;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.formClass {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.suscribe {
+    color: whitesmoke;
+    margin: 10px
+}

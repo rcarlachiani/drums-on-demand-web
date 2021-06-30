@@ -1,0 +1,28 @@
+/* Secciones navegables con breve descripción */
+
+.tarjeta {
+    height: 400px;
+    font-size: 12px;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    background-color: $background;
+}
+
+.tarjeta:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 250px;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 15px;
+}
+
+.card-title {
+    color: $titulos;
+}

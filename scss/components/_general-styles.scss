@@ -1,0 +1,27 @@
+/* Estilos generales para todas las secciones */
+
+body {
+    background-image: url(../images/back-img-bn.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Raleway', sans-serif;
+}
+
+@mixin h1-h2 {
+    color: gold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    @include h1-h2
+}
+
+h2 {
+    @include h1-h2
+}
+
+p {
+    color: whitesmoke;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,27 @@
+/* Request a session */
+
+.articleRequest {
+    display: flex;
+    justify-content: center;
+}
+
+.itemRequest {
+    background: $back-gradient;
+    background: $gradient;
+    border-radius: 8px;
+    width: 600px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    padding: 20px;
+}
+
+.paragraphRequest {
+    margin-bottom: 50px;
+}
+
+.listRequest {
+    color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 15px;
+}
