@@ -1,0 +1,19 @@
+/* About this site*/
+
+.articleAbout {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphAbout {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    width: 800px;
+    background: $back-gradient;
+    background: $gradient;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
