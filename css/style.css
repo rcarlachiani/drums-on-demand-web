@@ -275,7 +275,6 @@ p {
   display: grid;
   grid-template-columns: 1000px;
   grid-template-rows: 400px 400px;
-<<<<<<< HEAD
   justify-content: center;
 }
 
@@ -288,13 +287,6 @@ p {
   padding: 15px;
 }
 
-/*
-.tableDrum {
-    color: $textos;
-    border-collapse: collapse;
-    border: solid 1px $textos;
-}
-*/
 .table {
   color: whitesmoke;
 }
@@ -310,7 +302,6 @@ p {
   padding: 15px;
   margin-top: 40px;
   margin-bottom: 60px;
-=======
   margin-top: 20px;
   margin-bottom: 150px;
   justify-content: center;
@@ -361,12 +352,10 @@ th {
 .tittleDrum {
   margin-top: 20px;
   margin-bottom: 10px;
->>>>>>> 57d5156f3f184108d0fc85e0bbdcf6b2a22385bb
 }
 
 @media only screen and (max-width: 700px) {
   .drumContainer {
-<<<<<<< HEAD
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: center;
@@ -384,9 +373,6 @@ th {
 
   .h2 {
     font-size: 12px;
-=======
-    grid-template-columns: 500px;
-    grid-template-rows: auto;
   }
 
   .tableDrum {
@@ -401,7 +387,6 @@ th {
 
   .drumTextContainer {
     font-size: small;
->>>>>>> 57d5156f3f184108d0fc85e0bbdcf6b2a22385bb
   }
 }
 /* Formulario contacto */
