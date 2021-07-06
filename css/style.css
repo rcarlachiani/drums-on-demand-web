@@ -304,52 +304,6 @@ p {
   margin-bottom: 60px;
 }
 
-.drumTextContainer {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
-  margin: 25px;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.tableDrum {
-  color: whitesmoke;
-  border-collapse: collapse;
-  border: solid 1px whitesmoke;
-  margin: 25px;
-}
-
-td {
-  padding: 15px;
-}
-
-th {
-  padding: 15px;
-}
-
-.guideDrum-container {
-  margin: 15px;
-  padding: 15px;
-  justify-items: center;
-}
-
-.guideDrum {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
-  width: 800px;
-  height: 450px;
-  color: whitesmoke;
-  font-size: 20px;
-  border-radius: 8px;
-  padding-top: 5px;
-  padding-left: 50px;
-}
-
-.tittleDrum {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
 @media only screen and (max-width: 700px) {
   .drumContainer {
     grid-template-columns: auto;
@@ -369,10 +323,6 @@ th {
 
   .h2 {
     font-size: 12px;
-  }
-
-  .drumTextContainer {
-    font-size: small;
   }
 }
 /* Formulario contacto */

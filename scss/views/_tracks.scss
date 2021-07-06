@@ -33,52 +33,6 @@
     margin-bottom: 60px;
 }
 
-.drumTextContainer {
-    background: $back-gradient;
-    background: $gradient;
-    margin: 25px;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.tableDrum {
-    color: $textos;
-    border-collapse: collapse;
-    border: solid 1px whitesmoke;
-    margin: 25px;
-}
-
-td {
-    padding: 15px;
-}
-
-th {
-    padding: 15px;
-}
-
-.guideDrum-container {
-    margin: 15px;
-    padding: 15px;
-    justify-items: center;
-}
-
-.guideDrum {
-    background: $back-gradient;
-    background: $gradient;
-    width: 800px;
-    height: 450px;
-    color: $textos;
-    font-size: 20px;
-    border-radius: 8px;
-    padding-top: 5px;
-    padding-left: 50px;
-}
-
-.tittleDrum {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 @media only screen and (max-width: 700px) {
     .drumContainer {
         grid-template-columns: auto;
@@ -96,7 +50,5 @@ th {
     .h2 {
         font-size: 12px;
     }
-    .drumTextContainer {
-        font-size: small;
-    }
+    
 }
