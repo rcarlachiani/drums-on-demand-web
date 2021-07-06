@@ -302,10 +302,6 @@ p {
   padding: 15px;
   margin-top: 40px;
   margin-bottom: 60px;
-  margin-top: 20px;
-  margin-bottom: 150px;
-  justify-content: center;
-  align-content: center;
 }
 
 .drumTextContainer {
@@ -373,16 +369,6 @@ th {
 
   .h2 {
     font-size: 12px;
-  }
-
-  .tableDrum {
-    width: 200px;
-    height: 400px;
-  }
-
-  .tableDrum {
-    width: 200px;
-    height: auto;
   }
 
   .drumTextContainer {
