@@ -1,0 +1,39 @@
+/* Cuerpo - Sección principal */
+
+.col-container {
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    padding: 15px;
+    background-color: $background;
+    border-radius: 10px;
+}
+
+.carousel-inner:hover {
+    transform: translateX(-10px);
+    transition: 1s;
+}
+
+.paragraphPrinc {
+    background-color: $background;
+    border-radius: 8px;
+    padding: 2%;
+    font-size: 20px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.paragraphPrinc:hover {
+    transform: translateX(10px);
+    transition: 1s;
+}
+
+.boton {
+    margin-top: 25px;
+}
+
+.tituloPrinc {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
