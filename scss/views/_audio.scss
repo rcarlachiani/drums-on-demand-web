@@ -1,28 +1,5 @@
 /* Audio examples */
 
-<<<<<<< HEAD
-=======
-.secTituloContainer {
-    display: flex;
-    justify-content: center;    
-}
-
-.secTituloFlex:hover {
-    transform: rotateX(360deg);
-    transition: 1.5s;
-}
-
-.secTituloFlex {
-    display: flex;
-    background: $back-gradient;
-    background: $gradient;
-    font-size: 40px;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 80px;
-}
-
->>>>>>> c3c221ea7c38504ea64ed2496e84168900a9863e
 .gridContainer {
     display: grid;
     grid-template-columns: 300px 300px;
