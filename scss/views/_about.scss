@@ -1,19 +1,33 @@
 /* About this site*/
 
-.articleAbout {
-    display: flex;
-    justify-content: center;
+.gridAboutContainer {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-template-columns: 620px 580px;
+    grid-template-rows: 420px;
+    grid-template-areas: 
+    "article imagen";
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 20px;
 }
 
-.paragraphAbout {
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    width: 800px;
-    background: $back-gradient;
-    background: $gradient;
+.articleAboutContainer {
+    background-color: $background;
     border-radius: 8px;
-    padding: 25px;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    display: grid;
+    grid-area: article;
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px;
+}
+
+.imgAboutContainer {
+    background-color: $background;
+    border-radius: 8px;
+    display: grid;
+    grid-area: imagen;
+    justify-content: center;
+    align-content: center;
 }

@@ -25,3 +25,26 @@ p {
     color: whitesmoke;
     letter-spacing: 2px;
 }
+
+.tituloContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1) 78%);
+    margin-top: 70px;
+    margin-left: 800px;
+    padding-right: 30px;
+    transform: skewX(50%);
+}
+
+.tituloItem {
+    font-size: 50px;
+}
+
+.tituloItem:hover {
+    transform: rotateX(360deg);
+    transition: 1.9s;
+}

@@ -1,18 +1,13 @@
 /* Cuerpo - Sección principal */
 
 .col-container {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .carousel-inner {
     padding: 15px;
     background-color: $background;
     border-radius: 10px;
-}
-
-.carousel-inner:hover {
-    transform: translateX(-10px);
-    transition: 1s;
 }
 
 .paragraphPrinc {
@@ -22,11 +17,6 @@
     font-size: 20px;
     text-align: right;
     overflow: hidden;
-}
-
-.paragraphPrinc:hover {
-    transform: translateX(10px);
-    transition: 1s;
 }
 
 .boton {

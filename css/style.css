@@ -23,21 +23,39 @@ p {
   letter-spacing: 2px;
 }
 
+.tituloContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  align-items: center;
+  height: 80px;
+  background: white;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 20%, black 78%);
+  margin-top: 70px;
+  margin-left: 800px;
+  padding-right: 30px;
+  transform: skewX(50%);
+}
+
+.tituloItem {
+  font-size: 50px;
+}
+
+.tituloItem:hover {
+  transform: rotateX(360deg);
+  transition: 1.9s;
+}
+
 /* Colores */
 /* Cuerpo - Sección principal */
 .col-container {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .carousel-inner {
   padding: 15px;
   background-color: #0e0e0e;
   border-radius: 10px;
-}
-
-.carousel-inner:hover {
-  transform: translateX(-10px);
-  transition: 1s;
 }
 
 .paragraphPrinc {
@@ -47,11 +65,6 @@ p {
   font-size: 20px;
   text-align: right;
   overflow: hidden;
-}
-
-.paragraphPrinc:hover {
-  transform: translateX(10px);
-  transition: 1s;
 }
 
 .boton {
@@ -68,8 +81,8 @@ p {
   height: 400px;
   font-size: 12px;
   overflow: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   align-items: center;
   background-color: #0e0e0e;
 }
@@ -92,22 +105,35 @@ p {
 }
 
 /* About this site*/
-.articleAbout {
-  display: flex;
-  justify-content: center;
+.gridAboutContainer {
+  display: grid;
+  justify-content: space-around;
+  align-content: space-around;
+  grid-template-columns: 620px 580px;
+  grid-template-rows: 420px;
+  grid-template-areas: "article imagen";
+  margin-top: 100px;
+  margin-bottom: 150px;
+  padding: 20px;
 }
 
-.paragraphAbout {
-  display: flex;
-  font-size: 30px;
-  text-align: center;
-  width: 800px;
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
+.articleAboutContainer {
+  background-color: #0e0e0e;
   border-radius: 8px;
-  padding: 25px;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  display: grid;
+  grid-area: article;
+  font-size: 20px;
+  text-align: justify;
+  padding: 30px;
+}
+
+.imgAboutContainer {
+  background-color: #0e0e0e;
+  border-radius: 8px;
+  display: grid;
+  grid-area: imagen;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Equipment */
@@ -157,26 +183,6 @@ p {
   }
 }
 /* Audio examples */
-.secTituloContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.secTituloFlex:hover {
-  transform: rotateX(360deg);
-  transition: 1.5s;
-}
-
-.secTituloFlex {
-  display: flex;
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
-  font-size: 40px;
-  padding: 10px;
-  border-radius: 8px;
-  margin-top: 80px;
-}
-
 .gridContainer {
   display: grid;
   grid-template-columns: 300px 300px;
