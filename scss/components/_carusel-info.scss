@@ -1,7 +1,11 @@
 /* Cuerpo - Sección principal */
 
 .col-container {
+<<<<<<< HEAD
     margin-top: 60px;
+=======
+    margin-top: 50px;
+>>>>>>> c3c221ea7c38504ea64ed2496e84168900a9863e
 }
 
 .carousel-inner {
@@ -10,6 +14,14 @@
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.carousel-inner:hover {
+    transform: translateX(-10px);
+    transition: 1s;
+}
+
+>>>>>>> c3c221ea7c38504ea64ed2496e84168900a9863e
 .paragraphPrinc {
     background-color: $background;
     border-radius: 8px;
@@ -19,6 +31,14 @@
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+.paragraphPrinc:hover {
+    transform: translateX(10px);
+    transition: 1s;
+}
+
+>>>>>>> c3c221ea7c38504ea64ed2496e84168900a9863e
 .boton {
     margin-top: 25px;
 }

@@ -1,5 +1,6 @@
 /* About this site*/
 
+<<<<<<< HEAD
 .gridAboutContainer {
     display: grid;
     justify-content: space-around;
@@ -30,4 +31,22 @@
     grid-area: imagen;
     justify-content: center;
     align-content: center;
+=======
+.articleAbout {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphAbout {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    width: 800px;
+    background: $back-gradient;
+    background: $gradient;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+>>>>>>> c3c221ea7c38504ea64ed2496e84168900a9863e
 }
