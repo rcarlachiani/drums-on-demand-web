@@ -4,7 +4,7 @@
     display: grid;
     justify-content: space-around;
     align-content: space-around;
-    grid-template-columns: 620px 580px;
+    grid-template-columns: 620px 590px;
     grid-template-rows: 420px;
     grid-template-areas: 
     "article imagen";
@@ -30,4 +30,8 @@
     grid-area: imagen;
     justify-content: center;
     align-content: center;
+}
+
+.imgAbout {
+    border-radius: 8px;
 }

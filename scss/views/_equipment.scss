@@ -2,8 +2,8 @@
 
 .equipmentContainer {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 250px;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 400px 640px;
     justify-content: center;
     column-gap: 100px;
     row-gap: 100px;
@@ -12,11 +12,18 @@
 }
 
 .equipmentCard {
-    background: $back-gradient;
-    background: $gradient;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $background;
     padding: 10px;
     border-radius: 8px;
     overflow: auto;
+}
+
+.imgEquipment {
+    margin: 10px;
+    border-radius: 8px;
 }
 
 .equipmentTittles {
@@ -25,9 +32,10 @@
 }
 
 .equipmentItems {
-    list-style: none;
+    list-style: circle;
     color: $textos;
     font-size: 20px;
+    text-align: left;
     margin-top: 10px;
 }
 

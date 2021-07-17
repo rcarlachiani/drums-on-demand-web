@@ -109,7 +109,7 @@ p {
   display: grid;
   justify-content: space-around;
   align-content: space-around;
-  grid-template-columns: 620px 580px;
+  grid-template-columns: 620px 590px;
   grid-template-rows: 420px;
   grid-template-areas: "article imagen";
   margin-top: 100px;
@@ -136,11 +136,15 @@ p {
   align-content: center;
 }
 
+.imgAbout {
+  border-radius: 8px;
+}
+
 /* Equipment */
 .equipmentContainer {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px 250px;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows: 400px 640px;
   justify-content: center;
   column-gap: 100px;
   row-gap: 100px;
@@ -149,11 +153,18 @@ p {
 }
 
 .equipmentCard {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0e0e0e;
   padding: 10px;
   border-radius: 8px;
   overflow: auto;
+}
+
+.imgEquipment {
+  margin: 10px;
+  border-radius: 8px;
 }
 
 .equipmentTittles {
@@ -162,9 +173,10 @@ p {
 }
 
 .equipmentItems {
-  list-style: none;
+  list-style: circle;
   color: whitesmoke;
   font-size: 20px;
+  text-align: left;
   margin-top: 10px;
 }
 
@@ -193,8 +205,7 @@ p {
 }
 
 .gridItem1 {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
+  background: #0e0e0e;
   width: 500px;
   height: 480px;
   padding: 20px;
@@ -204,8 +215,7 @@ p {
 }
 
 .gridItem2 {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
+  background: #0e0e0e;
   width: 350px;
   height: 500px;
   padding: 20px;
