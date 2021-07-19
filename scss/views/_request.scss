@@ -1,23 +1,24 @@
-/* Request a session */
+/* Contact - Request a session */
+
+.contactContainer {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: space-around;
+    grid-template-areas: "instructions form";
+    margin-top: 69px;
+    margin-bottom: 70px;
+}
 
 .articleRequest {
-    display: flex;
-    justify-content: center;
+    grid-area: "instructions";
+    background: $background;
+    width: 600px;
+    border-radius: $bordes;
+    padding: 25px;
 }
 
 .itemRequest {
-    background: $back-gradient;
-    background: $gradient;
-    border-radius: 8px;
-    width: 600px;
-    font-size: 25px;
-    margin-top: 100px;
-    margin-bottom: 130px;
-    padding: 20px;
-}
-
-.paragraphRequest {
-    margin-bottom: 50px;
+    font-size: 18px;
 }
 
 .listRequest {
@@ -25,3 +26,44 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.formRequest {
+    grid-area: "form";
+    background: $background;
+    padding: 15px;
+    border-radius: $bordes;
+}
+
+.form-label {
+    color: $textos;
+}
+
+#fillForm {
+    height: 240px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contactContainer {
+        grid-template-columns: 300px;
+        grid-template-areas: "instructions";
+        grid-template-areas: "form";
+        row-gap: 80px;
+        justify-items: center;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contactContainer {
+        grid-template-columns: 300px;
+        grid-template-areas: "instructions";
+        grid-template-areas: "form";
+        row-gap: 80px;
+        justify-items: center;
+        align-items: center;
+    }
+    .articleRequest {
+        width: 300px;
+        font-size: 10px;
+    }
+  }

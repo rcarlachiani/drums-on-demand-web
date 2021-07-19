@@ -1,14 +1,24 @@
 /* Equipment */ 
 
-.equipmentContainer {
+.equipmentContainer1 {
     display: grid;
     grid-template-columns: 310px 310px 310px;
-    grid-template-rows: 400px 640px;
+    grid-template-rows: min-content;
     justify-content: center;
     column-gap: 100px;
     row-gap: 100px;
     margin-top: 60px;
-    margin-bottom: 120px;
+}
+
+.equipmentContainer2 {
+    display: grid;
+    grid-template-columns: 310px 310px;
+    grid-template-rows: min-content;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .equipmentCard {
@@ -40,16 +50,30 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .equipmentContainer {
+    .equipmentContainer1 {
         grid-template-columns: 300px 300px;
+        grid-template-rows: min-content;
+        align-items: auto;
+        justify-content: auto;
+    }
+    .equipmentContainer2 {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: min-content;
         align-items: auto;
         justify-content: auto;
     }
   }
   
   @media only screen and (max-width: 700px) {
-    .equipmentContainer {
+    .equipmentContainer1 {
         grid-template-columns: 300px;
+        grid-template-rows: min-content;
+        align-items: auto;
+        justify-content: auto;
+    }
+    .equipmentContainer2 {
+        grid-template-columns: 300px;
+        grid-template-rows: min-content;
         align-items: auto;
         justify-content: auto;
     }

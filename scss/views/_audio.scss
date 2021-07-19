@@ -3,10 +3,9 @@
 .gridContainer {
     display: grid;
     grid-template-columns: 300px 300px;
-    grid-column-gap: 200px;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    justify-content: space-around;
+    margin-top: 72px;
+    margin-bottom: 70px;
 }
 
 .gridItem1 {
@@ -39,9 +38,31 @@
     margin-top: 10px;
 }
   
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .gridContainer {
-        grid-template-columns: 300px;
+        grid-template-columns: 400px;
+        justify-content: auto;
+    }
+    .gridItem1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .yt {
+        width: 250px;
+    }
+    .gridItem2 {
+        width: auto;
+        height: auto;
+    }
+    .sp {
+        width: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .gridContainer {
+        grid-template-columns: 280px;
         justify-content: auto;
     }
     .gridItem1 {
