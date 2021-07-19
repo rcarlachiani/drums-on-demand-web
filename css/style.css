@@ -47,6 +47,10 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
+  .body {
+    background-size: contain;
+  }
+
   .tituloContainer {
     background: #0e0e0e;
     flex-direction: row;
@@ -56,6 +60,11 @@ p {
     margin-top: 50px;
     margin-left: 0px;
     padding-right: 0px;
+    padding-top: 8px;
+  }
+
+  .tituloItem {
+    font-size: 20px;
   }
 }
 /* Colores */
@@ -482,6 +491,8 @@ p {
     grid-template-columns: 400px;
     grid-template-rows: auto auto;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .tableSectionContainer {
@@ -490,7 +501,7 @@ p {
   }
 
   .howToContainer {
-    margin: 60px;
+    margin: 40px;
     font-size: 15px;
   }
 
