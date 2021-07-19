@@ -419,18 +419,18 @@ p {
 /* Drum tracks */
 .drumContainer {
   display: grid;
-  grid-template-columns: 1000px;
-  grid-template-rows: 400px 400px;
+  grid-template-columns: 700px 500px;
+  grid-template-rows: 400px;
+  column-gap: 80px;
   justify-content: center;
+  margin-top: 110px;
+  margin-bottom: 114px;
 }
 
 .tableSectionContainer {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
-  justify-self: center;
-  align-self: center;
+  background: #0e0e0e;
   border-radius: 8px;
-  padding: 15px;
+  padding: 18px;
 }
 
 .table {
@@ -438,21 +438,27 @@ p {
 }
 
 .howToContainer {
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.7035189076) 41%, rgba(0, 0, 0, 0.3057598039) 100%);
-  justify-self: center;
-  align-self: center;
-  font-size: 16px;
+  display: grid;
+  background: #0e0e0e;
+  justify-items: center;
+  font-size: 18px;
   color: whitesmoke;
   border-radius: 8px;
-  padding: 15px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  padding: 18px;
 }
 
-@media only screen and (max-width: 700px) {
+.btn-outline-warning {
+  margin-bottom: 20px;
+}
+
+.btn-outline-warning:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1200px) {
   .drumContainer {
-    grid-template-columns: auto;
+    grid-template-columns: 700px;
     grid-template-rows: auto auto;
     justify-content: center;
   }
@@ -460,6 +466,27 @@ p {
   .tableSectionContainer {
     margin: 40px;
     font-size: 12px;
+  }
+
+  .howToContainer {
+    margin: 60px;
+    font-size: 15px;
+  }
+
+  .h2 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .drumContainer {
+    grid-template-columns: 400px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+
+  .tableSectionContainer {
+    margin: 40px;
+    font-size: 8px;
   }
 
   .howToContainer {
