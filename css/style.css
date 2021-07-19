@@ -133,8 +133,8 @@ p {
   grid-template-columns: 620px 590px;
   grid-template-rows: 420px;
   grid-template-areas: "article imagen";
-  margin-top: 86px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 88px;
   padding: 18px;
 }
 
@@ -273,8 +273,8 @@ p {
   display: grid;
   grid-template-columns: 300px 300px;
   justify-content: space-around;
-  margin-top: 72px;
-  margin-bottom: 70px;
+  margin-top: 62px;
+  margin-bottom: 62px;
 }
 
 .gridItem1 {
@@ -363,8 +363,8 @@ p {
   grid-template-columns: 300px 300px;
   justify-content: space-around;
   grid-template-areas: "instructions form";
-  margin-top: 69px;
-  margin-bottom: 70px;
+  margin-top: 55px;
+  margin-bottom: 53px;
 }
 
 .articleRequest {
