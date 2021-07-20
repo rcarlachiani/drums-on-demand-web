@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/* Estilos generales para todas las secciones */
+/* General styles */
 body {
   background-image: url(../images/back-img-bn.JPG);
   background-size: cover;
@@ -23,7 +22,7 @@ p {
   letter-spacing: 2px;
 }
 
-.tituloContainer {
+.tittleContainer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: right;
@@ -37,17 +36,17 @@ p {
   transform: skewX(50%);
 }
 
-.tituloItem {
+.tittleItem {
   font-size: 30px;
 }
 
-.tituloItem:hover {
+.titttleItem:hover {
   transform: rotateX(360deg);
   transition: 1.9s;
 }
 
 @media only screen and (max-width: 1200px) {
-  .tituloContainer {
+  .tittleContainer {
     background: #0e0e0e;
     flex-direction: row;
     justify-content: center;
@@ -59,7 +58,7 @@ p {
     padding-top: 8px;
   }
 
-  .tituloItem {
+  .tittleItem {
     font-size: 20px;
   }
 }
@@ -70,8 +69,8 @@ p {
     background-attachment: fixed;
   }
 }
-/* Colores */
-/* Cuerpo - Sección principal */
+/* Colors and sizes */
+/* Body - Cards - Carousel - Index section */
 .col-container {
   margin-top: 60px;
 }
@@ -91,17 +90,17 @@ p {
   overflow: hidden;
 }
 
-.boton {
+.mainButton {
   margin-top: 25px;
 }
 
-.tituloPrinc {
+.princTittle {
   font-size: 20px;
   margin-bottom: 22px;
 }
 
-/* Secciones navegables con breve descripción */
-.tarjeta {
+/* Nav sections with descriptions */
+.indexCards {
   height: 400px;
   font-size: 12px;
   overflow: auto;
