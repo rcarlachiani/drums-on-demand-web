@@ -5,13 +5,18 @@
 }
 
 .text-footer:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.5s;
+    transform: $transformButtons;
+    transition: $transitionButtons;
+}
+
+.btn-group {
+    margin-top: 11px;
 }
 
 .dropdown-menu {
     background-color: rgb(14, 14, 14);
     text-align: center;
+    margin-top: 50px;
 }
 
 .link-footer {
@@ -21,6 +26,6 @@
 }
 
 .link-hover:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
+    transform: $transformButtons;
+    transition: $transitionButtons;
 }

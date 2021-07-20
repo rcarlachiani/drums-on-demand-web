@@ -27,13 +27,13 @@
     align-items: center;
     background: $background;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: $bordes;
     overflow: auto;
 }
 
 .imgEquipment {
     margin: 10px;
-    border-radius: 8px;
+    border-radius: $bordes;
 }
 
 .equipmentTittles {

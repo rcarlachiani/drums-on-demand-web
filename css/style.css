@@ -70,6 +70,7 @@ p {
   }
 }
 /* Colors and sizes */
+/* Sizes, radius, etc */
 /* Body - Cards - Carousel - Index section */
 .col-container {
   margin-top: 60px;
@@ -111,7 +112,7 @@ p {
 }
 
 .btn-outline-warning:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   transition: 0.5s;
 }
 
@@ -545,9 +546,14 @@ p {
   transition: 0.5s;
 }
 
+.btn-group {
+  margin-top: 11px;
+}
+
 .dropdown-menu {
   background-color: #0e0e0e;
   text-align: center;
+  margin-top: 50px;
 }
 
 .link-footer {
@@ -557,7 +563,7 @@ p {
 }
 
 .link-hover:hover {
-  transform: scale(1.1);
+  transform: scale(1.1, 1.1);
   transition: 0.5s;
 }
 
