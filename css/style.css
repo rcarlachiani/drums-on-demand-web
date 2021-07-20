@@ -30,7 +30,7 @@ p {
   align-items: center;
   height: 80px;
   background: white;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 20%, black 78%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 5%, black 95%);
   margin-top: 70px;
   margin-left: 800px;
   padding-right: 30px;
@@ -38,7 +38,7 @@ p {
 }
 
 .tituloItem {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .tituloItem:hover {
@@ -47,10 +47,6 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
-  .body {
-    background-size: contain;
-  }
-
   .tituloContainer {
     background: #0e0e0e;
     flex-direction: row;
@@ -65,6 +61,13 @@ p {
 
   .tituloItem {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-image: url(../images/back-img-1200.jpg);
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 /* Colores */
@@ -172,8 +175,8 @@ p {
 }
 @media only screen and (max-width: 600px) {
   .gridAboutContainer {
-    grid-template-columns: 340px;
-    grid-template-rows: 320px 250px;
+    grid-template-columns: 300px;
+    grid-template-rows: 400px 210px;
     padding: 10px;
     grid-template-areas: "article";
     grid-template-areas: "imagen";
@@ -252,6 +255,14 @@ p {
     align-items: auto;
     justify-content: auto;
   }
+
+  .equipmentTittles {
+    font-size: 20px;
+  }
+
+  .equipmentItems {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 700px) {
   .equipmentContainer1 {
@@ -309,13 +320,14 @@ p {
 
 @media only screen and (max-width: 1000px) {
   .gridContainer {
-    grid-template-columns: 400px;
+    grid-template-columns: 300px;
     justify-content: auto;
   }
 
   .gridItem1 {
     width: auto;
     height: auto;
+    font-size: 15px;
     margin-bottom: 80px;
   }
 
@@ -326,6 +338,7 @@ p {
   .gridItem2 {
     width: auto;
     height: auto;
+    font-size: 15px;
   }
 
   .sp {
@@ -334,7 +347,7 @@ p {
 }
 @media only screen and (max-width: 400px) {
   .gridContainer {
-    grid-template-columns: 280px;
+    grid-template-columns: 300px;
     justify-content: auto;
   }
 
@@ -409,6 +422,10 @@ p {
     justify-items: center;
     align-items: center;
   }
+
+  .itemRequest {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .contactContainer {
@@ -432,14 +449,14 @@ p {
   grid-template-rows: 400px;
   column-gap: 80px;
   justify-content: center;
-  margin-top: 110px;
-  margin-bottom: 114px;
+  margin: 120px;
 }
 
 .tableSectionContainer {
   background: #0e0e0e;
   border-radius: 8px;
   padding: 18px;
+  margin-left: 25px;
 }
 
 .table {
@@ -454,6 +471,7 @@ p {
   color: whitesmoke;
   border-radius: 8px;
   padding: 18px;
+  margin-right: 25px;
 }
 
 .btn-outline-warning {
@@ -470,15 +488,19 @@ p {
     grid-template-columns: 700px;
     grid-template-rows: auto auto;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .tableSectionContainer {
-    margin: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 12px;
   }
 
   .howToContainer {
-    margin: 60px;
+    margin: 40px;
     font-size: 15px;
   }
 
@@ -488,7 +510,7 @@ p {
 }
 @media only screen and (max-width: 600px) {
   .drumContainer {
-    grid-template-columns: 400px;
+    grid-template-columns: 380px;
     grid-template-rows: auto auto;
     justify-content: center;
     margin-top: 30px;
@@ -496,13 +518,18 @@ p {
   }
 
   .tableSectionContainer {
-    margin: 40px;
+    margin: 30px;
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .table {
     font-size: 8px;
   }
 
   .howToContainer {
     margin: 40px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .h2 {

@@ -40,12 +40,13 @@
   
 @media only screen and (max-width: 1000px) {
     .gridContainer {
-        grid-template-columns: 400px;
+        grid-template-columns: 300px;
         justify-content: auto;
     }
     .gridItem1 {
         width: auto;
         height: auto;
+        font-size: 15px;
         margin-bottom: 80px;
     }
     .yt {
@@ -54,6 +55,7 @@
     .gridItem2 {
         width: auto;
         height: auto;
+        font-size: 15px;
     }
     .sp {
         width: 250px;
@@ -62,7 +64,7 @@
 
   @media only screen and (max-width: 400px) {
     .gridContainer {
-        grid-template-columns: 280px;
+        grid-template-columns: 300px;
         justify-content: auto;
     }
     .gridItem1 {

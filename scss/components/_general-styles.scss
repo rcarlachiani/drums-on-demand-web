@@ -33,7 +33,7 @@ p {
     align-items: center;
     height: 80px;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1) 78%);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 5%, rgba(0,0,0,1) 95%);
     margin-top: 70px;
     margin-left: 800px;
     padding-right: 30px;
@@ -41,7 +41,7 @@ p {
 }
 
 .tituloItem {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .tituloItem:hover {
@@ -50,9 +50,6 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
-    .body {
-        background-size: contain;
-    }
     .tituloContainer {
         background: rgb(14, 14, 14);
         flex-direction: row;
@@ -64,8 +61,14 @@ p {
         padding-right: 0px;
         padding-top: 8px;
     }
-
     .tituloItem {
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    body {
+        background-image: url(../images/back-img-1200.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
