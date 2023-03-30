@@ -1,6 +1,12 @@
-# :earth_americas: Proyecto Final - Desarrollo Web - Coderhouse
+:gb: EN
+<br>
 
-:gear: Tecnologías y herramientas utilizadas:
+Complete website as a personal portfolio of my career as a drummer and the services I offer as such.
+<br>
+Made for the Web Development subject of the Coderhouse Front End Development career.
+<br>
+
+:gear: Developed with:
 
 :zap: HTML
 <br/>
@@ -8,24 +14,20 @@
 <br/>
 :zap: SASS + CSS3
 <br/>
-:zap: SEO 
+<br>
 
-:bulb: El proyecto consistió en llevar a cabo la construcción del sitio a partir del wireframe.
-<br/>
-Una vez realizada la maquetación, se procedió a aplicar los estilos mediante CSS3.
-<br/>
-A lo largo del trayecto se incorporaron nuevas herramientas, tales como SASS y Bootstrap, que dieron como resultado 
-<br/>
-orden y limpieza en el código favoreciendo el responsive, la eficacia de carga y accesibilidad, sumadas a la utilización
-<br/> 
-de SEO.
-<br/>
-Por último, incluyó el aprendizaje y dominio de la herramienta "FileZilla" para realizar la carga del sitio a un servidor
-<br/>
-gratuito, al cual se puede acceder a través del siguiente enlace:
-<br/>
-https://drumsondemand.000webhostapp.com/
+:es: ES
+<br>
 
-:heavy_check_mark: El desarrollo fue aprobado con nota 10 (diez) y el certificado puede ser visualizado en el siguiente enlace:
+Sitio web completo a modo de portfolio personal de mi carrera como baterista y los servicios que ofrezco como tal. 
+<br>
+Realizado para la materia Desarrollo Web de la carrera de Desarrollo Front End de Coderhouse.
+<br>
+
+:gear: Desarrollado con:
+
+:zap: HTML
 <br/>
-https://www.coderhouse.com/certificados/6109846f90ef2d0010b06a10
+:zap: Bootstrap
+<br/>
+:zap: SASS + CSS3
